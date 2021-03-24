@@ -99,7 +99,7 @@ function detectCollision(lstones,lmango){
 }
 function keyPressed(){
   if(keyCode===32){
-    Matter.Body.setPosition(stoneObj.body,{x:100,y:465});
+    Matter.Body.setPosition(stoneObj.body,{x:245,y:415});
     slingShot.Launch(stoneObj.body);
   }
 }
