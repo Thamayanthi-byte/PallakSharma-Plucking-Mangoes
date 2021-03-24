@@ -12,6 +12,9 @@ class Slingshot {
             World.add(world,this.sling)
 
         }
+        Launch(bodyA){
+this.sling.bodyA=bodyA;
+        }
         fly(){
             this.sling.bodyA=null
         }
